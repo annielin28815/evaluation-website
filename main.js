@@ -1,5 +1,5 @@
 // 資料
-const movies = [{
+const books = [{
   title: '為你自己學Git',
   author: '高見龍',
   image: 'git.jpeg',
@@ -26,7 +26,7 @@ const movies = [{
 
 
 // 函式
-function displayMovieList(data) {
+function displayBookList(data) {
   let htmlContent = `
     <table class="table">
       <thead>
@@ -75,7 +75,7 @@ function displayMovieList(data) {
 
 // 主程式
 const dataPanel = document.querySelector('#data-panel')
-displayMovieList(movies)
+displayBookList(books)
 
 
 // 正負評的功能
